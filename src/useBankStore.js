@@ -1,4 +1,3 @@
-
 import { create } from 'zustand';
 
 // We pass a basic function into the create engine
@@ -19,16 +18,16 @@ export const useBankStore = create(function(set) {
                 return {
                     walletBalance: state.walletBalance - amount
                 };
-            });
-            
+            });        
         }
     };
 });
+/* ===========================================
 
 
-/* ====================================================
+=======================================================
  🚀 MODERN ES6 ARROW FUNCTION VERSION (For Reference)
-====================================================
+=======================================================
 
 import { create } from 'zustand';
 
