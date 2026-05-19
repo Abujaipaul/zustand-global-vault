@@ -1,7 +1,7 @@
 import { useBankStore } from './useBankStore';
 
 export default function Navbar() {
-  // We only grab the balance. We don't need the userName or deduct function here.
+  //  grab the balance.... don't need the userName or deduct function here.
   const { walletBalance } = useBankStore();
 
   const formattedBalance = new Intl.NumberFormat("en-NG", {
